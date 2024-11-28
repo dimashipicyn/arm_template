@@ -1,0 +1,29 @@
+{
+    "cmake.configureOnOpen": false,
+    "files.encoding": "utf8",
+    "clangd.arguments": ["-log=verbose",
+                         "--clang-tidy",
+                         "-pretty", 
+                         "--background-index", 
+                         //"--query-driver=C:/SysGCC/beaglebone/bin/arm-linux-gnueabihf-g++.exe", //for cross compile usage
+                         "--compile-commands-dir=${workspaceFolder}/out"],
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "cmake.parallelJobs": 16,
+    "C_Cpp.intelliSenseCacheSize": 0,
+    "cmake.copyCompileCommands": "${workspaceFolder}/out/compile_commands.json",
+    "C_Cpp.autoAddFileAssociations": false,
+    "C_Cpp.codeAnalysis.clangTidy.useBuildPath": true,
+    "C_Cpp.codeAnalysis.clangTidy.args": [
+        "-p=${workspaceFolder}/out"
+    ],
+
+    "host": "0.0.0.0",
+    "port": "2020",
+    "login": "root",
+    "password": "root",
+    "deploy_path": "/root/",
+    "prog_args": "",
+    "ssh_port": 22
+
+}

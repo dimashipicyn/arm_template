@@ -1,0 +1,19 @@
+---
+BasedOnStyle:  LLVM
+IndentWidth: 4
+---
+Language: Cpp
+
+AccessModifierOffset: -4
+AlignAfterOpenBracket: Align
+AllowShortBlocksOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortEnumsOnASingleLine: false
+ColumnLimit: 120
+PointerAlignment: Left
+ReferenceAlignment: Left
+SeparateDefinitionBlocks: Always
+BreakBeforeBraces: Allman
+...
